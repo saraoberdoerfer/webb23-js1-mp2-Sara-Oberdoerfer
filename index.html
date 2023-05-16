@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="./java/script.js" defer></script>
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Sten, sax och påse</title>
+    </head>
+    <body>
+        <section id="game">
+            <div id="regler">
+                <h1 id="titel">STEN SAX PÅSE</h1>
+                <p>
+                    Spelregler: Du kommer att spela sten sax påse mot datorn.
+                    Välj sten, sax eller påse genom att trycka på en av
+                    knapparna. Den som får 3 poäng först vinner.
+                </p>
+            </div>
+
+            <form>
+                <label for="text">Namn:</label>
+                <input type="text" id="namn" />
+                <button id="buttonNamn">Starta</button>
+            </form>
+
+            <div id="score">
+                <h1 id="h1Namn">Spelaren</h1>
+                <p id="playerScore">0</p>
+                <h1 id="h1Dator">Datorn</h1>
+                <p id="computerScore">0</p>
+            </div>
+
+            <div id="Buttons">
+                <button id="rock">STEN</button>
+                <button id="scissor">SAX</button>
+                <button id="paper">PÅSE</button>
+            </div>
+
+            <div id="playersText">
+                <h1 id="playerChoice"></h1>
+                <h1 id="computerChoice"></h1>
+            </div>
+
+            <h3 id="winner"></h3>
+        </section>
+    </body>
+</html>
